@@ -18,7 +18,7 @@ I'm convinced that my ability to process and apply new information quickly and e
 * CSS
 
 ## Code Example *(codewars.com)*
-```
+``` Python 
 def opposite(number):
     return abs(number) if number<0 else -number
 ```
