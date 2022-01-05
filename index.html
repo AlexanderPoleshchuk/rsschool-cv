@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>cv</title>
+    <link rel="icon" href="./assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Spartan:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/img/icon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<header class="header">
+    <div class="container header-container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Work Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+        <div class="toggle">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="container main-container">
+        <section class="section section-profile" id="profile">
+            <div class="section-profile-title">
+                <h1 class="section-title main-title">Aliaksandr Paliashchuk</h1>
+                <h3 class="section-subtitle">Junior FrontEnd Developer</h3>
+
+            </div>
+            <img src="./assets/img/avatar.png" alt="" class="section-profile-logo">
+        </section>
+        <section>
+            <p>
+                I’m convinced that my ability to process and apply new information quickly and efficiently will
+                allow me
+                to resolve any challenges.
+            </p>
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="section-list">
+                <li class="section-item contacts-item">
+                    Email: <a href="mailto:poleshchukalexander@gmail.com"
+                              title="email">poleshchukalexander@gmail.com</a>
+                </li>
+                <li class="section-item contacts-item">
+                    Github: <a href="https://github.com/AlexanderPoleshchuk" title="github">Alexander Poleshchuk</a>
+                </li>
+                <li class="section-item contacts-item">
+                    Telegram: <a href="https://t.me/field_of_pikes" title="github">@field_of_pikes</a>
+                </li>
+                <li class="section-item contacts-item">
+                    Discord: <a href="https://discord.gg/zUr7wWYPXE" title="github">a.paliashchuk#1252</a>
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list">
+                <li class="section-item">
+                    Programming languages:<span> Python, JavaScript</span>
+                </li>
+                <li class="section-item">
+                    Programming technologies:<span> HTML, CSS, SQL</span>
+                </li>
+                <li class="section-item">
+                    Frameworks and libraries:<span> Django, React</span>
+                </li>
+                <li class="section-item">
+                    Version control:<span> GIT</span>
+                </li>
+                <li class="section-item">
+                    Databases:<span> PostgreSQL</span>
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <pre class="pre"><code>const fib = n => {
+  if(n <= 1){
+    return n;
+  }else{
+    return fib(n - 1) + fib(n - 2);
+  }
+}</code></pre>
+        </section>
+        <section class="section" id="projects">
+            <h2 class="section-title">Work Experience</h2>
+            <ul class="section-list">
+                <li class="section-item">
+                    Admitad<span> - Support Engineer(DevOps team) 09/2020 - 04/2021</span>
+                </li>
+                <li class="section-item">
+                    iTechArt<span> - Python Developer 05/2021 - Present</span>
+                </li>
+            </ul>
+        </section>
+        <section class="section section-education" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>Belarusian National Technical University</p>
+        </section>
+        <section class="section section-english" id="english">
+            <h2 class="section-title">English</h2>
+            <p>B1 - Intermediate</p>
+        </section>
+    </div>
+</main>
+<footer class="footer">
+
+    <div class="container footer-container">
+        <a href="https://rs.school/js/" class="rss"></a>
+        <div class="footer-container-year">© 2022 <a href="https://github.com/AlexanderPoleshchuk"
+                                                     class="github nav-link">Alexander Poleshchuk</a></div>
+
+    </div>
+</footer>
+</body>
+
+</html>
